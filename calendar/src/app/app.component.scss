@@ -1,0 +1,59 @@
+.calendar {
+    flex-direction: row;
+    height: 100%;
+    width: 37%;
+    // border: 1px solid red;
+    margin-right: 10px;
+    float: left;
+    background-color: #417a9e;
+    // background-image: linear-gradient(to bottom right,#00416a,  88%);
+}
+.graph {
+    flex-direction: row;
+    height: 100%;
+    width: 38%;
+    // border: 1px solid red;
+    margin-right: 10px;
+    float: left;
+    margin-top: 9%;
+    background-image: linear-gradient(to bottom right,#cc95c0,#dbd4b4,#7aa1d2 88%);
+}
+.title {
+    color: black;
+    
+    margin-bottom: 30px;
+    background-image: linear-gradient(87deg,#f5365c 0,#f56036 100%)
+}
+
+.wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    margin-left: 20px;
+    // border: 1px solid orange;
+  }
+  
+  .wrapper p {
+    position: absolute;
+    margin: 0;
+    line-height: 25px;
+    white-space: nowrap;
+    animation: marquee 5s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0% { transform: translateY(100%); }
+    100% { transform: translateY(-100%); }
+  }
+// ::ng-deep h2[_ngcontent-dni-c12] {
+//     margin: 8px 20px !important;
+// }
+
+::ng-deep a {
+    color: white;
+}
+
+.tagLine {
+    margin-left: 20%;
+}

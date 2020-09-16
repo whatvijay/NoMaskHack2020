@@ -1,0 +1,4 @@
+npm install --save @fullcalendar/angular @fullcalendar/core @fullcalendar/daygrid
+
+npm install --save ng2-charts
+npm install --save chart.js
